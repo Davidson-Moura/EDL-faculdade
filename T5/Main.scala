@@ -6,7 +6,7 @@ object Main extends Base{
 
         var text = formatter.formatAddress("ShipTo"); //formata o texto de acordo com a tela.
 
-        var label = this.getText('Commom.Address'); //retorna o texto de endereço de acordo com o idioma.
+        var label = this.getText("Commom.Address"); //retorna o texto de endereço de acordo com o idioma.
 
         println( label +": "+ text ); // Pelo arquivo pt-br.properties: Endereço: <Endereço de envio padrão para aquele idioma>
     }
